@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-Regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-Bold.ttf') format('truetype');
+	font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-Italic.ttf') format('truetype');
+	font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-Light.ttf') format('truetype');
+	font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('./../font/RobotoCondensed-LightItalic.ttf') format('truetype');
+	font-weight: lighter;
+    font-style: italic;
+}

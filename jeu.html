@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Bataille Spatiale</title>
+        <meta name="author" content="G44422" />
+        <link rel="icon" href="./assets/img/favicon/favicon128.png" type="image/png" sizes="128x128">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/infobox.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/stars.css" />
+        <!-- JS -->
+        <script src="./assets/js/keyCode.js"></script>
+        <script src="./assets/js/vaisseau.js"></script>
+        <script src="./assets/js/soucoupe.js"></script>
+        <script src="./assets/js/tir.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </head>
+    <body onkeydown="affKeyCode(event)">
+        <main>
+            <h1>Bataille Spaciale</h1>
+            <canvas id="stars" width="1000" height="400"></canvas>
+            <div id="game">
+                <img id="vaisseauId" />
+            </div>
+            <div id="control">
+                <div class="infobox">
+                    <div class="upper score">Chrono</div>
+                    <div class="lower score" id="chrono">30</div>
+                </div>
+                <div class="infobox">
+                    <div class="upper chrono">Score</div>
+                    <div class="lower chrono" id="score">0</div>
+                </div>
+                <div class="infobox debug">
+                    <div class="upper best">Meilleur score</div>
+                    <div class="lower best" id="best-score">0</div>
+                </div>
+            </div>
+        </main>
+        <footer id="credit">Brandt Matthieu,&emsp; G44422,&emsp; B112,&emsp; DNA,&emsp; Mars 2018</footer>
+    </body>
+</html>

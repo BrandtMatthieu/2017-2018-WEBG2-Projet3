@@ -1,0 +1,28 @@
+#stars {
+	background-image: url("./../img/ciel.svg");
+	background-size: auto 400px;
+	display : block;
+	margin : auto;
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position : 0px 0px;
+	border : 2px solid white;
+	z-index: 1;
+}
+
+#stars {
+	animation-duration: 5s;
+	animation-name: starsSlide;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes starsSlide {
+	from {
+		background-position : 1000px 0px;
+	}
+
+	to {
+		background-position : 0px 0px;
+	}
+}
